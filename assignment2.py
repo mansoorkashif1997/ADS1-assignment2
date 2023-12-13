@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import stats as stats
+import seaborn as sns
 
 def read_data(filename):
     
