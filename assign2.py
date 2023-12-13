@@ -38,8 +38,10 @@ df_years, df_countries = read_data(filename)
 print('dataframes with years as columns:\n', df_years)
 print('dataframes with countries as columns:\n', df_countries)
 
-#use of describe method
+#use of describe method and two other
 print(df_years.describe())
+print(df_years.mean())
+print(df_years.median())
 
 
 def bar_plot(dataframe):
